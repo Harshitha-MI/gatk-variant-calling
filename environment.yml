@@ -9,4 +9,3 @@ dependencies:
   - gatk4
   - picard
   - fastqc
-  - python=3.10
