@@ -1,0 +1,12 @@
+name: gatk_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bwa
+  - samtools
+  - gatk4
+  - picard
+  - fastqc
+  - python=3.10
