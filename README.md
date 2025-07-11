@@ -9,7 +9,7 @@ It processes paired-end FASTQ files and generates variant calls through a series
 
 ✅ Step 1: Directory structure setup and data prep logic written  
 ✅ Step 2: Reference genome preparation section added  
-✅ Step 3: FastQC (planned)  
+✅ Step 3: FastQC 
 ✅ Step 4: BWA-MEM alignment (scripted but computationally intensive)  
 🔜 Step 5: SAMtools sorting & indexing  
 🔜 Step 6: MarkDuplicates (Picard)  
@@ -45,16 +45,10 @@ conda activate gatk_env
 ## 🚀 Usage
 
 ```bash
-bash variant_calling.sh sample_R1.fq.gz sample_R2.fq.gz
+bash variant_calling.sh
 ```
 
 Make sure to update the paths in the script according to your local environment.
-
----
-
-## 📄 License
-
-MIT License (to be added)
 
 ---
 
